@@ -352,3 +352,64 @@ nav a:hover{
 }
 /* FIN PASOS PARA COMPRAR */
 
+/* ELEGIRNOS A NOSOTROS */
+.section-elegirnos{
+    width: 100%;
+    background: linear-gradient(to bottom, #FFFFFF, #FAFAFA);
+    padding: 4rem 0rem;
+}
+.elegirnos{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.elegirnos h2{
+    font-size: 2.5rem;
+}
+.elegirnos-titulos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.elegirnos-titulos p{
+    line-height: 25px;
+}
+.elegirnos-motivos{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin-top: 5rem;
+}
+.elegirnos-motivos p{
+    width: 75%;
+}
+.elegirnos img{
+    width: 40rem;
+    height: 50rem;
+    object-fit: cover;
+}
+.motivo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.motivo:first-child{
+    background-color: var(--color-blanco);
+    
+}
+.motivo-titulo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.motivo-titulo i{
+    font-size: 1.5rem;
+    color: var(--color-blanco);
+    border-radius: 50%;
+    background-color: var(--color-negro);
+    padding: 0.5rem 0.9rem;
+}
+/* FIN ELEGIRNOS A NOSOTROS */
