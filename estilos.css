@@ -211,6 +211,8 @@ nav a:hover{
     object-fit: cover;
     width: 24rem;
     height: 20rem;
+    cursor: pointer;
+    transition: all 250ms;
 }
 .featured-precio{
     position: absolute;
@@ -250,3 +252,37 @@ nav a:hover{
     color: var(--color-blanco);
 }
 /* FIN FEATURED LISTING */
+
+/* NUESTRA VISION */
+.section-vision{
+    width: 100%;
+    background-color: var(--color-gris-claro);
+}
+.vision-mision{
+    width: 90%;
+    background-color: var(--color-gris-claro);
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0rem;
+    margin: 0 auto;
+}
+.our-vision,
+.our-mision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vision-mision p{
+    width: 85%;
+    line-height: 25px;
+}
+.vision-mision img{
+    width: 39rem;
+}
+/* FIN NUESTRA VISION */
+
+/* PASOS PARA COMPRAR */
+
+/* FIN PASOS PARA COMPRAR */
