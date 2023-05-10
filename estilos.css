@@ -474,6 +474,7 @@ nav a:hover{
 .section-mudanza{
     width: 100%;
     background: linear-gradient(to bottom, #FAFAFA, #FFFFFF);
+    padding: 6rem 0rem;
 }
 .mudanza{
     width: 85%;
@@ -525,3 +526,59 @@ nav a:hover{
     height: 16rem;
 }
 /* FIN MUDANZA */
+
+/* FOOTER */
+.section-footer{
+    width: 100%;
+    background-color: var(--color-gris-claro);
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.empresa,
+.links,
+.contactos,
+.formulario{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.empresa p{
+    width: 60%;
+}
+.contacto-ubicacion,
+.contacto-telefono,
+.contacto-email{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.formulario input{
+    border-radius: 15px;
+    padding: 0.6rem 0.5rem;
+    border: 1px solid var(--color-negro);
+    width: 15rem;
+}
+.formulario button{
+    width: 16rem;
+    color: var(--color-blanco);
+    padding: 0.6rem 0.5rem;
+    border-radius: 15px;
+    background-color: var(--color-azul);
+    border: 1px solid var(--color-azul);
+    cursor: pointer;
+    transition: all 250ms;
+}
+.formulario button:hover{
+    background-color: transparent;
+    color: var(--color-azul);
+}
+/* FIN FOOTER */
