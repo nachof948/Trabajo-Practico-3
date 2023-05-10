@@ -47,6 +47,10 @@ h2{
 img{
     border-radius: 15px;
 }
+p{
+    font-weight: 500;
+    color: var(--color-gris);
+}
 /* FIN ESTILOS GENERALES */
 
 /* HEADER */
@@ -284,5 +288,67 @@ nav a:hover{
 /* FIN NUESTRA VISION */
 
 /* PASOS PARA COMPRAR */
-
+.section-compras{
+    width: 100%;
+    background-color: var(--color-blanco);
+    padding: 6rem 0rem;
+}
+.pasos-compra{
+    width: 85%;
+    margin: 0 auto;
+}
+.pasos-titulos{
+    display: flex;
+    align-items: center;
+}
+.pasos-titulos p{
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--color-gris);
+}
+.pasos{
+    display: flex;
+    align-items: center;
+}
+.paso{
+    flex-basis: 25%;
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.paso h3{
+    font-size: 1.7rem;
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+.paso h2{
+    font-size: 2rem;
+}
+.paso p{
+    width: 90%;
+    line-height: 25px;
+}
+.pasos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pasos-footer a{
+    background-color: transparent;
+    border: 2px solid var(--color-gris);
+    color: var(--color-gris);
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 250ms;
+}
+.pasos-footer a:hover{
+    background-color: var(--color-gris);
+    color: var(--color-blanco);
+}
 /* FIN PASOS PARA COMPRAR */
+
