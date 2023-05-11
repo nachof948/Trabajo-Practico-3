@@ -56,6 +56,9 @@ p{
     font-weight: 500;
     color: var(--color-gris);
 }
+ul{
+    list-style: none;
+}
 /* FIN ESTILOS GENERALES */
 
 /* HEADER */
@@ -472,9 +475,14 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
 }
+.testimonios-titulos h2{
+    width: 50%;
+    font-size: 3.3rem;
+}
 .testimonios-titulos p{
-    width: 60%;
-    line-height: 25px;
+    width: 45%;
+    font-size: 1.3rem;
+    line-height: 40px;
 }
 .testimonios{
     display: flex;
@@ -483,13 +491,14 @@ nav a:hover{
     margin-top: 4rem;
 }
 .testimonio{
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: fit-content;
 }
 .testimonio p{
     width: 75%;
+    font-size: 1.2rem;
 }
 .cliente{
     display: flex;
@@ -498,8 +507,8 @@ nav a:hover{
 }
 .testimonio:first-child{
     background-color: var(--color-blanco);
-    padding: 0.5rem 1rem;
-    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    width: 40%;
     border-radius: 25px;
     box-shadow: 0px 0px 1px var(--color-gris);
 }
@@ -517,38 +526,39 @@ nav a:hover{
 .section-mudanza{
     width: 100%;
     background: linear-gradient(to bottom, #FAFAFA, #FFFFFF);
-    padding: 6rem 0rem;
+    padding: 5rem 0rem 6rem;
 }
 .mudanza{
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 8rem;
 }
 .mudanza h1{
     width: 100%;
 }
 .mudanza img{
-    width: 36rem;
+    width: 30vw;
     height: 41rem;
 }
 .mudanza-contenido{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.8rem;
 }
 .mudanza-contenido h1{
     width: 80%;
 }
 .mudanza-contenido p{
-    width: 70%;
-    line-height: 25px;
+    width: 80%;
+    line-height: 40px;
+    font-size: 1.3rem;
 }
 .mudanza-contenido a{
     background-color: var(--color-azul);
     color: var(--color-blanco);
-    padding: 0.9rem 1.7rem;
+    padding: 0.9rem 2.6rem;
     border-radius: 25px;
     width: fit-content;
     font-size: 0.9;
@@ -562,11 +572,11 @@ nav a:hover{
 .mudanza-img{
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 .mudanza-img img{
-    width: 16rem;
-    height: 16rem;
+    width: 14vw;
+    height: 27vh;
 }
 /* FIN MUDANZA */
 
@@ -574,7 +584,7 @@ nav a:hover{
 .section-footer{
     width: 100%;
     background-color: var(--color-gris-claro);
-    min-height: 25vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
 }
@@ -595,7 +605,27 @@ nav a:hover{
     gap: 1rem;
 }
 .empresa p{
-    width: 60%;
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+.links h3{
+    padding-bottom: 1rem;
+}
+li{
+    margin-bottom: 1rem;
+}
+li a{
+    font-size: 1.1rem;
+    color: var(--color-negro);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.contactos i{
+    font-size: 1.3rem;
+}
+.contactos a{
+    color: var(--color-gris);
 }
 .contacto-ubicacion,
 .contacto-telefono,
@@ -604,6 +634,7 @@ nav a:hover{
     align-items: center;
     gap: 0.5rem;
 }
+
 .formulario input{
     border-radius: 15px;
     padding: 0.6rem 0.5rem;
