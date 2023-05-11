@@ -50,7 +50,7 @@ h2{
 img{
     border-radius: 15px;
     object-fit: cover;
-    width: 100%;
+
 }
 p{
     font-weight: 500;
@@ -103,7 +103,7 @@ nav a:hover{
     padding-top: 6rem;
 }
 .hero{
-    width: 85%;
+    width: 85vw;
     background-color: var(--color-blanco);
     padding: 0rem 2rem;
     margin: 0 auto;
@@ -118,6 +118,9 @@ nav a:hover{
     flex-direction: column;
     gap: 3rem;
 }
+.hero-textos h1{
+    width: 70%;
+}
 .hero-textos p{
     color: var(--color-gris);
     font-weight: 500;
@@ -125,7 +128,7 @@ nav a:hover{
     width: 85%;
 }
 .hero img{
-    max-width: 37rem;
+    max-width: 30vw;
     width: 100%;
     height: 41rem;
     border-radius: 15px;
@@ -137,7 +140,8 @@ nav a:hover{
     position: relative;
 }
 .hero-input input{
-    width: 42rem;
+    max-width: 35vw;
+    width: 100%;
     padding: 1.8rem 3.2rem;
     border-radius: 35px;
     border: none;
@@ -146,7 +150,7 @@ nav a:hover{
 .hero-input button{
     position: absolute;
     top: 9px;
-    left: 39.5rem;
+    left: 32.5vw;
     font-size: 1rem;
     background-color: var(--color-azul);
     color: var(--color-blanco);
@@ -211,10 +215,12 @@ nav a:hover{
     color: var(--color-gris);
     width: 45%;
     line-height: 32px;
+    font-size: 1.3rem;
 }
 .featured-casas{
     display: flex;
     align-items: center;
+    gap: 0.1rem;
     padding-top: 5rem;
 }
 .casa{
@@ -223,10 +229,15 @@ nav a:hover{
 }
 .casa img{
     object-fit: cover;
-    width: 24rem;
-    height: 20rem;
+    max-width: 19.5vw;
+    width: 100%;
+    height: 32vh;
     cursor: pointer;
     transition: all 250ms;
+}
+.casa h2{
+    font-size: 2.5rem;
+    width: 95%;
 }
 .featured-precio{
     position: absolute;
@@ -251,14 +262,16 @@ nav a:hover{
 .featured-footer p{
     font-weight: 500;
     color: var(--color-gris);
+    font-size: 1.3rem;
 }
 .featured-footer a{
     background-color: transparent;
-    border: 2px solid var(--color-gris);
-    color: var(--color-gris);
+    border: 1px solid var(--color-gris);
+    color: var(--color-negro);
     padding: 1rem 3rem;
-    border-radius: 25px;
-    font-weight: 500;
+    border-radius: 28px;
+    font-size: 1.2rem;
+    font-weight: 700;
     transition: all 250ms;
 }
 .featured-footer a:hover{
@@ -274,26 +287,33 @@ nav a:hover{
 }
 .vision-mision{
     width: 90%;
-    background-color: var(--color-gris-claro);
+    margin: 0 auto;
+    padding: 8rem 0rem;
     display: flex;
-    justify-content: center;
-    padding: 10rem 0rem;
+}
+.our-vision{
     margin: 0 auto;
 }
-.our-vision,
-.our-mision{
+.contenido-vision{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
 }
 
+.vision-mision h2{
+    width: fit-content;
+}
 .vision-mision p{
-    width: 85%;
-    line-height: 25px;
+    width: 65%;
+    line-height: 35px;
+    font-size: 1.2rem;
 }
 .vision-mision img{
-    width: 39rem;
+    width: 30vw;
 }
 /* FIN NUESTRA VISION */
 
@@ -310,15 +330,22 @@ nav a:hover{
 .pasos-titulos{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.pasos-titulos h2{
+    width: 40%;
 }
 .pasos-titulos p{
-    line-height: 25px;
+    line-height: 45px;
     font-weight: 500;
     color: var(--color-gris);
+    font-size: 1.3rem;
+    width: 50%;
 }
 .pasos{
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 .paso{
     flex-basis: 25%;
@@ -332,28 +359,34 @@ nav a:hover{
     background-color: var(--color-negro);
     color: var(--color-blanco);
     border-radius: 50%;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     width: fit-content;
+
 }
 .paso h2{
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 .paso p{
     width: 90%;
-    line-height: 25px;
+    line-height: 35px;
+    font-size: 1.2rem;
 }
 .pasos-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.pasos-footer p{
+    font-size: 1.3rem;
+}
 .pasos-footer a{
     background-color: transparent;
-    border: 2px solid var(--color-gris);
-    color: var(--color-gris);
+    border: 1px solid var(--color-gris);
+    color: var(--color-negro);
     padding: 1rem 3rem;
     border-radius: 25px;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.1rem;
     transition: all 250ms;
 }
 .pasos-footer a:hover{
