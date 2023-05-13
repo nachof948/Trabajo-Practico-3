@@ -95,7 +95,32 @@ nav a:hover{
     background-color: transparent;
     color: var(--color-azul);
 }
+
+.menu-responsive{
+    display: none;
+}
+.menu-responsive i{
+    font-size: 2.5rem;
+    color: var(--color-azul);
+}
+
+
 /* FIN HEADER */
+
+/* MEDIA QUERIES - HEADER */
+@media (max-width: 1170px) {
+    nav{
+        display: none;
+    }
+    .header-quote{
+        display: none;
+    }
+    .menu-responsive{
+        display: block;
+    }
+}
+/* FIN MEDIA QUERIES - HEADER */
+
 
 /* HERO*/
 .section-hero{
@@ -129,7 +154,7 @@ nav a:hover{
     width: 85%;
 }
 .hero img{
-    max-width: 30vw;
+    max-width: 31vw;
     width: 100%;
     height: 41rem;
     border-radius: 15px;
@@ -141,8 +166,7 @@ nav a:hover{
     position: relative;
 }
 .hero-input input{
-    max-width: 35vw;
-    width: 100%;
+    width: 35vw;
     padding: 1.8rem 3.2rem;
     border-radius: 35px;
     border: none;
@@ -192,6 +216,71 @@ nav a:hover{
 }
 /* FIN HERO */
 
+
+/* MEDIA-QUERIES HERO */
+@media (max-width:1721px) {
+    .section-hero h1{
+        width: 89%;
+    }
+}
+@media (max-width:1456px) {
+    .section-hero h1{
+        width: 95%;
+        font-size: 4.2rem;
+    }
+    .hero-textos p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .hero-numeros{
+        gap: 3rem;
+    }
+}
+@media (max-width:1240px){
+    .section-hero h1{
+        width: 100%;
+        font-size: 4rem;
+    }
+    .section-hero img{
+        height: 39rem;
+    }
+}
+@media (max-width: 1170px) {
+    .section-hero h1{
+        width: 95%;
+        font-size: 4rem;
+    }
+    .hero-textos p{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .hero img{
+        display: none;
+    }
+    .hero-textos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .hero-input input{
+        width: 60vw;
+    }
+    .hero-input button{
+        left: 55vw;
+    }
+    .hero-numeros{
+        gap: 7rem;
+    }
+}
+@media (max-width:920px){
+    .hero-numeros{
+        gap: 3rem;
+    }
+}
+
+/* FIN MEDIA-QUERIES HERO */
+
 /* FEATURED LISTING  */
 .section-listing{
     width: 100%;
@@ -230,8 +319,7 @@ nav a:hover{
 }
 .casa img{
     object-fit: cover;
-    max-width: 19.5vw;
-    width: 100%;
+    width: 19.5vw;
     height: 32vh;
     cursor: pointer;
     transition: all 250ms;
@@ -281,6 +369,62 @@ nav a:hover{
 }
 /* FIN FEATURED LISTING */
 
+/* MEDIA-QUERIES FEATURED LISTING */
+@media (max-width:1610px) {
+    .featured-footer p{
+        width: 70%;
+    }
+}
+@media (max-width:1533px) {
+    .features-titulos p{
+        width: 50%;
+    }
+}
+@media (max-width:1419px) {
+    .features-titulos p{
+        width: 60% ;
+        text-align: center;
+    }
+    .casa h2{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width:1170px){
+    .features-titulos{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .features-titulos{
+        font-size: 2.7rem;
+    }
+    .features-titulos p{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    .featured-casas{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .casa img{
+        width: 40vw;
+    }
+}
+@media (max-width: 959px){
+    .casa img{
+        width: 70vw;
+    }
+    .casa h2{
+        font-size: 2.2rem;
+    }
+    .featured-footer p{
+        font-size: 1.2rem;
+        width: 70%;
+    }
+}
+
+/* FIN MEDIA-QUERIES FEATURED LISTING */
+
 /* NUESTRA VISION */
 .section-vision{
     width: 100%;
@@ -296,7 +440,8 @@ nav a:hover{
 .vision-mision img{
     width: 31.5vw;
 }
-.our-vision{
+.our-vision,
+.our-mision{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,6 +455,33 @@ nav a:hover{
     line-height: 40px;
 }
 /* FIN NUESTRA VISION */
+
+/* MEDIA-QUERIES NUESTRA VISION */
+@media (max-width: 1424px){
+    .vision-mision img{
+        width: 34vw;
+    }
+    .vision-textos{
+    width: 85%;
+    }
+}
+@media (max-width:1170px){
+    .vision-mision{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3.5rem;
+    }
+    .vision-textos{
+        width: 95%;
+    }
+    .vision-mision img{
+        width: 80vw;
+    }
+}
+
+
+/* FIN MEDIA-QUERIES NUESTRA VISION */
 
 /* PASOS PARA COMPRAR */
 .section-compras{
@@ -399,7 +571,7 @@ nav a:hover{
     width: 85%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
 }
 .elegirnos-textos{
@@ -419,14 +591,14 @@ nav a:hover{
     font-size: 1.3rem;
 }
 .elegirnos-motivos{
-    width: 80%;
+    width: 38vw;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 3rem;
 }
 .elegirnos-motivos p{
-    width: 95%;
+    width: 90%;
 }
 .elegirnos img{
     width: 36vw;
