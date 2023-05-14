@@ -807,7 +807,7 @@ nav a:hover{
 .testimonios-clientes{
     width: 85%;
     margin: 0 auto;
-    padding: 9rem 0rem;
+    padding: 6rem 0rem 4rem;
 }
 .testimonios-titulos{
     display: flex;
@@ -878,6 +878,68 @@ nav a:hover{
     width: 100%;
 }
 /* FIN TESTIMONIOS */
+
+/* MEDIA-QUERIES TESTIMONIOS */
+
+@media(max-width:1583px){
+    .testimonio p{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:1444px){
+    .testimonio{
+        width: 25%;
+    }
+    .testimonio p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1325px){
+    .testimonios-titulos h2{
+        font-size: 2.6rem;
+    }
+    .testimonios-titulos p{
+        font-size: 1.1rem;
+    }
+    .nombre h3{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1170px){
+    .testimonios-titulos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .testimonios-titulos h2{
+        width: 90%;
+    }
+    .testimonios-titulos p{
+        width: 70%;
+    }
+    .testimonios{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .testimonio{
+        width: 40%;
+    }
+    .testimonio p{
+        font-size: 1.3rem;
+    }
+    .cliente h3{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:1063px){
+    .testimonio{
+        width: 60%;
+    }
+}
+/* FIN MEDIA-QUERIES TESTIMONIOS */
+
 
 /* MUDANZA */
 .section-mudanza{
