@@ -1137,9 +1137,11 @@ li a{
 .contacto-telefono,
 .contacto-email{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0.5rem;
-
+}
+.contacto-ubicacion p{
+    width: 60%;
 }
 
 .formulario h3{
@@ -1174,3 +1176,91 @@ form input::placeholder{
     color: var(--color-azul);
 }
 /* FIN FOOTER */
+
+/* MEDIA-QUERIES FOOTER */
+
+@media(max-width:1554px){
+    .contacto-ubicacion p{
+        width: 75%;
+    }
+    .empresa p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1247px){
+    .contacto-ubicacion p{
+        width: 85%;
+    }
+    .empresa p{
+        width: 100%;
+    }
+}
+@media(max-width:1170px){
+    .footer{
+        gap: 1rem;
+    }
+    .contacto-ubicacion p{
+        width: 85%;
+    }
+    li a{
+        font-size: 0.95rem;
+    }
+}
+@media(max-width:974px){
+    .footer{
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+        padding: 2rem 0rem;
+    }
+    .empresa{
+        align-items: center;
+    }
+    .empresa img{
+        width: 20vw;
+    }
+    .empresa p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .links{
+        align-items: center;
+        text-align: center;
+    }
+    .links h3,
+    .contactos h3,
+    .formulario h3{
+        font-size: 1.6rem;
+    }
+    li a{
+        font-size: 1.3rem;
+    }
+    .contactos{
+        align-items: center;
+        text-align: center;
+    }
+    .contactos h3{
+        font-size: 1.6rem;
+    }
+    .contactos p{
+        font-size: 1.2rem;
+    }
+    .contacto-ubicacion i{
+        position: relative;
+        left: 2.3rem;
+    }
+    .formulario{
+        align-items: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form input{
+        width: 46vw;
+    }
+    .form button{
+        width: 49.5vw;
+    }
+}
+/* FIN MEDIA-QUERIES FOOTER */
