@@ -561,6 +561,88 @@ nav a:hover{
 }
 /* FIN PASOS PARA COMPRAR */
 
+/* MEDIA-QUERIES SECTION-COMPRAS */
+@media(max-width:1723px){
+    .pasos-titulos h2{
+        width: 45%;
+    }
+}
+@media(max-width:1613px){
+    .pasos-footer p{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:1532px){
+    .pasos-titulos h2{
+        width: 50%;
+    }
+    .pasos-titulos p{
+        font-size: 1.1rem;
+        width: 45%;
+    }
+    .pasos-footer p{
+        width: 60%;
+    }
+}
+@media(max-width:1385px){
+    .pasos-titulos h2{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:1295px){
+    .pasos-titulos p{
+        width: 55%;
+    }
+    .pasos-titulos h2{
+        font-size: 2rem;
+    }
+    .paso h2{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width:1170px){
+    .pasos-titulos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .pasos-titulos h2{
+        width: 50%;
+    }
+    .pasos-titulos p{
+        width: 80%;
+        line-height: 30px;
+        font-size: 1.3rem;
+    }
+    .pasos{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .paso{
+        align-items: center;
+        text-align: center;
+    }
+    .paso p{
+        font-size: 1.3rem;
+    }
+    .pasos-footer p{
+        width: 70%;
+    }
+}
+@media(max-width:919px){
+    .pasos-titulos h2{
+        width: 70%;
+    }
+    .pasos-titulos p{
+        width: 90%;
+    }
+}
+/* FIN MEDIA-QUERIES SECTION-COMPRAS */
+
+
 /* ELEGIRNOS A NOSOTROS */
 .section-elegirnos{
     width: 100%;
@@ -618,10 +700,13 @@ nav a:hover{
 .motivo:first-child{
     background: linear-gradient(to bottom,rgba(250,250,250,1) 0%, rgba(255,255,255,1)  30%);
     border-radius: 15px;
+
+
 }
 .motivo:hover{
     background: linear-gradient(to bottom,rgba(250,250,250,1) 0%, rgba(255,255,255,1)  30%);
     border-radius: 15px;
+
 }
 .motivo-titulo{
     display: flex;
@@ -644,6 +729,75 @@ nav a:hover{
     line-height: 40px;
 }
 /* FIN ELEGIRNOS A NOSOTROS */
+
+/* MEDIA-QUERIES ELEGIRNOS A NOSOTROS */
+
+@media(max-width:1664px){
+    .elegirnos-titulos{
+        width: 100%;
+    }
+    .motivo-titulo h3{
+        font-size: 2rem;
+    }
+    .motivo p{
+        width: 90%;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 1531px){
+    .motivo{
+        padding: 1.2rem 1.5rem 1.2rem 1rem;
+    }
+    .motivo-titulo h3{
+        font-size: 1.8rem;
+    }
+    .motivo p{
+        width: 90%;
+    }
+    .elegirnos img{
+        width: 40vw;
+        height: 96vh;
+        object-fit: cover;
+    }
+} 
+@media(max-width:1408px){
+    .elegirnos-titulos h2{
+        font-size: 2.7rem;
+    }
+    .elegirnos-titulos p{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:1170px){
+    .elegirnos img{
+        display: none;
+    }
+    .elegirnos{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .elegirnos-titulos p{
+        width: 80%;
+        align-self: center;
+        font-size: 1.3rem;
+    }
+    .elegirnos-motivos{
+        width: 90vw;
+        text-align: left;
+    }
+    .motivo-titulo h3{
+        font-size: 2.3rem;
+    }
+    .motivo p{
+        font-size: 1.3rem;
+    }
+    .section-elegirnos{
+        padding: 2.5rem 0rem 0.5rem ;
+    }
+}
+/* FIN MEDIA-QUERIES ELEGIRNOS A NOSOTROS */
+
 
 /* TESTIMONIOS */
 .section-testimonios{
