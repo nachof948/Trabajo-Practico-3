@@ -1265,9 +1265,7 @@ nav a:hover{
     .mudanza-img{
         justify-content: center;
     }
-    .mudanza-img img{
-        width: 30vw;
-    }
+
 }
 @media(max-width:425px){
     .section-mudanza{
