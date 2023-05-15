@@ -948,6 +948,29 @@ nav a:hover{
         padding: 2.5rem 0rem 0.5rem ;
     }
 }
+@media(max-width:425px){
+    .section-elegirnos{
+        padding: 0.5rem 0rem ;
+    }
+    .elegirnos-titulos h2{
+        width: 100%;
+        font-size: 2.1rem;
+    }
+    .elegirnos-titulos p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .motivo h3{
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .motivo p{
+        font-size: 1rem;
+        line-height: 25px;
+        width: 85%;
+    }
+}
 /* FIN MEDIA-QUERIES ELEGIRNOS A NOSOTROS */
 
 
