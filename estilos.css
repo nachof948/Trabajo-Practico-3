@@ -127,6 +127,7 @@ nav a:hover{
     width: 100%;
     background-color: var(--color-blanco);
     padding-top: 6rem;
+    margin: 0 auto;
 }
 .hero{
     width: 85vw;
@@ -280,7 +281,7 @@ nav a:hover{
 }
 @media(max-width:708px){
     .section-hero{
-        padding: 3rem 0rem;
+        padding: 3rem 0rem 1rem;
     }
     .hero-textos h1{
         font-size: 3.5rem;
@@ -336,7 +337,7 @@ nav a:hover{
     }
     .hero-input i{
         top: 13px;
-        left: 15px;
+        left: 13px;
     }
 }
 
@@ -348,6 +349,7 @@ nav a:hover{
     width: 100%;
     background-color: var(--color-blanco);
     padding-top: 9rem;
+    margin: 0 auto;
 }
 .featured{
     width: 85%;
@@ -484,6 +486,42 @@ nav a:hover{
         width: 70%;
     }
 }
+@media(max-width:733px){
+    .featured-footer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .featured-footer p{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:588px){
+    .section-listing{
+        padding-top: 5rem;
+    }
+}
+@media(max-width:425px){
+    .features-titulos h2{
+        font-size: 1.8rem;
+    }
+    .features-titulos p{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .featured-casas{
+        padding-top: 2rem;
+    }
+    .casa img{
+        width: 90vw;
+    }
+    .casa h2{
+        font-size: 1.6rem;
+    }
+    .featured-footer p{
+        font-size: 1rem;
+    }
+}
 
 /* FIN MEDIA-QUERIES FEATURED LISTING */
 
@@ -492,6 +530,7 @@ nav a:hover{
     width: 100%;
     background-color: var(--color-gris-claro);
     padding: 7rem 0rem;
+    margin: 0 auto;
 }
 .vision-mision{
     width: 85%;
@@ -539,6 +578,19 @@ nav a:hover{
     }
     .vision-mision img{
         width: 80vw;
+    }
+}
+@media(max-width:425px){
+    .section-vision{
+        padding: 4rem 0rem 3rem;
+    }
+    .vision-textos h2{
+        font-size: 2.3rem;
+    }
+    .vision-textos p{
+        font-size: 0.9rem;
+        width: 100%;
+        line-height: 25px;
     }
 }
 
