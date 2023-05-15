@@ -1316,7 +1316,6 @@ nav a:hover{
     align-items: flex-start;
     gap: 1rem;
 }
-
 .empresa p{
     width: 80%;
     font-size: 1.2rem;
@@ -1357,7 +1356,6 @@ li a{
 .contacto-ubicacion p{
     width: 60%;
 }
-
 .formulario h3{
     margin-bottom: 0.7rem;
 }
@@ -1475,6 +1473,45 @@ form input::placeholder{
     }
     .form button{
         width: 49.5vw;
+    }
+}
+@media(max-width:425px){
+    .empresa img{
+        width: 10rem;
+    }
+    .empresa p{
+        width: 100%;
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+    .links h3,
+    .contactos h3,
+    .formulario h3{
+        font-size: 1.3rem;
+    }
+    li a{
+        font-size: 1rem;
+    }
+    .contactos p{
+        font-size: 0.9rem;
+    }
+    .contacto-ubicacion i{
+        position: relative;
+        left: 2rem;
+        bottom: 0.2rem;
+    }
+    .form button{
+        width: 51vw;
+    }
+}
+@media(max-width:375px){
+    .contacto-ubicacion i{
+        position: relative;
+        left: 0.9rem;
+        bottom: 0.2rem;
+    }
+    .form button{
+        width: 53vw;
     }
 }
 /* FIN MEDIA-QUERIES FOOTER */
