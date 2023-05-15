@@ -1314,6 +1314,9 @@ nav a:hover{
         font-size: 1rem;
         line-height: 25px;
     }
+    .mudanza-contenido a{
+        padding: 0.7rem 2rem;
+    }
     .mudanza-img{
         flex-direction: column;
     }
@@ -1453,7 +1456,7 @@ form input::placeholder{
 
 @media(max-width:1554px){
     .contacto-ubicacion p{
-        width: 75%;
+        width: 95%;
     }
     .empresa p{
         font-size: 1rem;
@@ -1461,7 +1464,7 @@ form input::placeholder{
 }
 @media(max-width:1247px){
     .contacto-ubicacion p{
-        width: 85%;
+        width: 100%;
     }
     .empresa p{
         width: 100%;
@@ -1474,8 +1477,16 @@ form input::placeholder{
     .contacto-ubicacion p{
         width: 85%;
     }
+    .contacto-telefono p,
+    .contacto-ubicacion p{
+        font-size: 0.9rem;
+    }
+    .contacto-email a{
+        font-size: 0.9rem;
+    }
     li a{
-        font-size: 0.95rem;
+        font-size: 1.1rem;
+        line-height: 30px;
     }
 }
 @media(max-width:974px){
@@ -1526,6 +1537,9 @@ form input::placeholder{
         width: 75%;
         text-align: center;
     }
+    .contacto-email a{
+        font-size: 1.2rem;
+    }
     .formulario{
         align-items: center;
     }
@@ -1537,7 +1551,7 @@ form input::placeholder{
         width: 55vw;
     }
     .form button{
-        width: 60vw;
+        width: 59.3vw;
     }
 }
 @media(max-width:425px){
@@ -1550,7 +1564,9 @@ form input::placeholder{
         line-height: 25px;
     }
     .contactos i{
-        font-size: 0.9rem;
+        font-size: 1rem;
+        position: relative;
+        top: 2px;
     }
     .links h3,
     .contactos h3,
@@ -1561,7 +1577,7 @@ form input::placeholder{
         font-size: 1rem;
     }
     .contactos p{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     .form button{
         width: 61vw;
@@ -1571,13 +1587,17 @@ form input::placeholder{
     .contacto-ubicacion i{
         position: relative;
         left: 0.9rem;
-        bottom: 0.2rem;
+    }
+    .contactos i{
+        font-size: 1rem;
+        position: relative;
+        top: 2px;
     }
     .form input{
         width: 60vw;
     }
     .form button{
-        width: 67vw;
+        width: 67.3vw;
     }
 }
 /* FIN MEDIA-QUERIES FOOTER */
