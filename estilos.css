@@ -1269,7 +1269,26 @@ nav a:hover{
         width: 30vw;
     }
 }
-
+@media(max-width:425px){
+    .section-mudanza{
+        padding: 0.3rem 0rem 2rem;
+    }
+    .mudanza-contenido h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .mudanza-contenido p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .mudanza-img{
+        flex-direction: column;
+    }
+    .mudanza-img img{
+        width: 80vw;
+    }
+}
 /* FIN MEDIA-QUERIES MUDANZA */
 
 
