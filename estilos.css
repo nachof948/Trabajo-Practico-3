@@ -64,7 +64,7 @@ nav a{
     color: var(--color-gris);
     font-weight: 600;
     padding-right: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: all 250ms;
 }
 .encabezado{
@@ -74,6 +74,16 @@ nav a{
     margin: 0 auto;
     width: 85%;
     padding: 1rem 0rem;
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo-header a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-negro);
 }
 .header-quote{
     background-color: var(--color-azul);
@@ -95,7 +105,6 @@ nav a:hover{
     background-color: transparent;
     color: var(--color-azul);
 }
-
 .menu-responsive{
     display: none;
 }
@@ -1313,8 +1322,24 @@ nav a:hover{
     flex-basis: 25%;
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
     align-items: flex-start;
     gap: 1rem;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo-footer a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-negro);
+}
+.empresa{
+    position: relative;
+    bottom: 1rem;
 }
 .empresa p{
     width: 80%;
@@ -1429,7 +1454,7 @@ form input::placeholder{
         align-items: center;
     }
     .empresa img{
-        width: 20vw;
+        width: 8vw;
     }
     .empresa p{
         font-size: 1.3rem;
@@ -1476,9 +1501,6 @@ form input::placeholder{
     }
 }
 @media(max-width:425px){
-    .empresa img{
-        width: 10rem;
-    }
     .empresa p{
         width: 100%;
         font-size: 0.9rem;
