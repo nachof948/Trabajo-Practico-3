@@ -1038,6 +1038,17 @@ nav a:hover{
     background-color: #FFC859;
     padding: 0.3rem 0.3rem 0rem 0.3rem;
 }
+.cliente-2 img{
+    border-radius: 50%;
+    background-color: #9AD4E2;
+    padding: 0.3rem 0.3rem 0rem 0.3rem;
+}
+.cliente-4 img{
+    border-radius: 50%;
+    background-color: #C5B2A3;
+    padding: 0.3rem 0.3rem 0rem 0.3rem;
+}
+
 .cliente{
     display: flex;
     align-items: center;
