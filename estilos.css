@@ -1120,6 +1120,27 @@ nav a:hover{
         font-size: 1.3rem;
     }
 }
+@media(max-width:425px){
+    .testimonios-titulos h2{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .testimonios-titulos p{
+        width: 100%;
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+    .testimonio{
+        width: 90%;
+    }
+    .testimonio p{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .nombre h3{
+        font-size: 1rem;
+    }
+}
 /* FIN MEDIA-QUERIES TESTIMONIOS */
 
 
