@@ -593,8 +593,6 @@ nav a:hover{
         line-height: 25px;
     }
 }
-
-
 /* FIN MEDIA-QUERIES NUESTRA VISION */
 
 /* PASOS PARA COMPRAR */
@@ -754,6 +752,44 @@ nav a:hover{
     }
     .pasos-footer a{
         padding: 1rem 2.5rem;
+    }
+}
+
+@media(max-width:425px){
+    .pasos-titulos{
+        padding-bottom: 2rem;
+    }
+    .pasos-titulos h2{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .pasos-titulos p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .paso{
+        padding: 0.5rem 0rem;
+    }
+    .paso h3{
+        font-size: 1.3rem;
+    }
+    .paso h2{
+        font-size: 1.3rem;
+    }
+    .paso p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .pasos-footer{
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 3rem;
+    }
+    .pasos-footer p{
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
     }
 }
 /* FIN MEDIA-QUERIES SECTION-COMPRAS */
