@@ -189,7 +189,7 @@ nav a:hover{
 }
 .hero-input i{
     position: absolute;
-    top: 23px;
+    top: 25px;
     left: 25px;
     font-size: 0.9rem;
 }
@@ -278,6 +278,68 @@ nav a:hover{
         gap: 3rem;
     }
 }
+@media(max-width:708px){
+    .section-hero{
+        padding: 3rem 0rem;
+    }
+    .hero-textos h1{
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    .hero-textos p{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:588px){
+    .hero-textos h1{
+        font-size: 2.6rem;
+    }
+}
+@media(max-width:437px){
+    .hero-textos h1{
+        font-size: 2.2rem;
+    }
+    .hero-textos p{
+        font-size: 1rem;
+    }
+    .hero-numero h3{
+        font-size: 1.6rem;
+    }
+    .hero-input input{
+        width: 65vw;
+        padding: 1.5rem 2.7rem;
+    }
+    .hero-input button{
+        padding: 0.7rem 2rem;
+    }
+    .hero-input i{
+        top: 21px;
+    }
+}
+@media(max-width: 320px){
+    .hero-textos h1{
+        font-size: 1.8rem;
+    }
+    .hero-textos p{
+        font-size: 0.9rem;
+    }
+    .hero-numero h3{
+        font-size: 1.6rem;
+    }
+    .hero-input input{
+        width: 60vw;
+        padding: 1rem 2rem;
+    }
+    .hero-input button{
+        padding: 0.4rem 1.2rem;
+        top: 6px;
+    }
+    .hero-input i{
+        top: 13px;
+        left: 15px;
+    }
+}
+
 
 /* FIN MEDIA-QUERIES HERO */
 
@@ -1103,6 +1165,7 @@ nav a:hover{
     align-items: flex-start;
     gap: 1rem;
 }
+
 .empresa p{
     width: 80%;
     font-size: 1.2rem;
