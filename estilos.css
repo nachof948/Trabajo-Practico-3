@@ -529,7 +529,7 @@ nav a:hover{
         width: 90vw;
     }
     .casa h3{
-        font-size: 1.7rem;
+        font-size: 1.65rem;
     }
     .featured-footer p{
         font-size: 1rem;
@@ -597,7 +597,8 @@ nav a:hover{
         padding: 4rem 0rem 3rem;
     }
     .vision-textos h2{
-        font-size: 2.3rem;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
     }
     .vision-textos p{
         font-size: 0.9rem;
@@ -793,7 +794,7 @@ nav a:hover{
         font-size: 1.3rem;
     }
     .paso h2{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
     .paso p{
         width: 100%;
@@ -971,7 +972,7 @@ nav a:hover{
     }
     .elegirnos-titulos h2{
         width: 100%;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
     .elegirnos-titulos p{
         width: 100%;
@@ -1138,6 +1139,9 @@ nav a:hover{
     }
 }
 @media(max-width:425px){
+    .testimonios-clientes{
+        padding: 2rem 0rem 2.5rem;
+    }
     .testimonios-titulos h2{
         width: 100%;
         font-size: 1.8rem;
@@ -1465,7 +1469,7 @@ form input::placeholder{
 @media(max-width:974px){
     .footer{
         flex-direction: column;
-        gap: 4rem;
+        gap: 2rem;
         align-items: center;
         padding: 2rem 0rem;
     }
@@ -1493,8 +1497,8 @@ form input::placeholder{
     }
     .contactos{
         align-items: center;
-        text-align: center;
-
+        text-align: center; 
+        gap: 0.6rem;
     }
     .contactos h3{
         font-size: 1.6rem;
@@ -1525,6 +1529,9 @@ form input::placeholder{
     }
 }
 @media(max-width:425px){
+    .footer{
+        padding: 4rem 0rem;
+    }
     .empresa p{
         width: 100%;
         font-size: 0.9rem;
