@@ -696,7 +696,7 @@ nav a:hover{
 }
 @media(max-width:1532px){
     .pasos-titulos h2{
-        width: 50%;
+        width: 70%;
     }
     .pasos-titulos p{
         font-size: 1.1rem;
@@ -708,7 +708,7 @@ nav a:hover{
 }
 @media(max-width:1385px){
     .pasos-titulos h2{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }
 @media(max-width:1295px){
@@ -716,7 +716,7 @@ nav a:hover{
         width: 55%;
     }
     .pasos-titulos h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .paso h2{
         font-size: 1.7rem;
@@ -731,7 +731,7 @@ nav a:hover{
         gap: 1rem;
     }
     .pasos-titulos h2{
-        width: 50%;
+        width: 70%;
     }
     .pasos-titulos p{
         width: 80%;
@@ -932,7 +932,8 @@ nav a:hover{
 } 
 @media(max-width:1408px){
     .elegirnos-titulos h2{
-        font-size: 2.7rem;
+        font-size: 3rem;
+        margin: 0 auto;
     }
     .elegirnos-titulos p{
         font-size: 1.2rem;
@@ -1142,7 +1143,7 @@ nav a:hover{
         width: 60%;
     }
     .testimonios-titulos h2{
-        font-size: 2.9rem;
+        font-size: 3rem;
     }
     .testimonios-titulos p{
         width: 90%;
